@@ -7,7 +7,7 @@ import {connect} from 'react-redux'
         return (
             <div>
                 <h1>Template 2 </h1>
-                <button onClick={()=>this.props.changeDevice('desktop')} >HAHAH</button>
+                <button onClick={()=>this.props.changeDevice('desktop')} ></button>
             </div>
         )
     }
