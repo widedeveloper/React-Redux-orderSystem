@@ -1,13 +1,21 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-import DiscountHolder from './templates/desktop-components/components/DiscountHolder'
+import DiscountHolder from './components/DiscountHolder'
+import ExitPopUp from './components/ExitPopUp'
+import PopupMain from './components/PopupMain'
+import MainContent from './components/MainContent'
 
 class DesktopComponents extends React.Component {
 
     render(){
         return (
-            <DiscountHolder />
+			<div>
+				<DiscountHolder />
+				<ExitPopUp />
+				<PopupMain />
+				<MainContent />
+			</div>
         )
     }
 }

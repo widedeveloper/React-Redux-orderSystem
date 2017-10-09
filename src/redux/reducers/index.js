@@ -3,7 +3,7 @@ import { combineReducers } from 'redux'
 
 const defaultConfig = {
     username:'Jhon',
-    device:'mobile'
+    device:'desktop'
 }
 const config = (state = defaultConfig, action) => {
 
