@@ -1,0 +1,71 @@
+{
+  "name": "react-redux-express",
+  "version": "1.0.0",
+  "description": "This is a complex react-redux app",
+  "main": ".src/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack --verbose -p --colors --display-error-details --config webpack.config.js",
+    "lint": "eslint -c .eslintrc.json src/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+    ],
+  "author": "Linping Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-redux/issues"
+  },
+  "homepage": "https://github.com/react-redux#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-modal-bootstrap": "^1.1.1",
+    "react-redux": "^5.0.5",
+    "react-redux-loading-bar": "^2.9.2",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.4.1",
+    "xhr": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.2.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-requirejs": "^3.1.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "redux-devtools-extension": "^2.13.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "svg-sprite-loader": "^3.0.6",
+    "svgo-loader": "^1.2.1",
+    "url-loader": "^0.5.9",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.4.2"
+  }
+}
