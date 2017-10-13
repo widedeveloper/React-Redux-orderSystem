@@ -1,0 +1,1 @@
+<?php header("Location: /page/?ao=eg_php_s1&t=desktop"); exit(); ?>

@@ -1,0 +1,274 @@
+body{
+    background: #fff;
+}
+#wrapper{
+    width: 320px;
+    margin: 0 auto;
+    font-family: 'Open Sans', helvetica;
+    color: #5a5a5a;
+}
+.after:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.green{
+    color: #66cc33;
+}
+.blue{
+    color: #005560;
+}
+.blue-two{
+    color: #0083c9;
+}
+.orange{
+    color: #f96401;
+}
+.red{
+    color: #ff0000;
+}
+.pink{
+    color: #e30061;
+}
+.gray{
+    color: #5a5a5a;
+}
+.gray-2{
+    color: #757575;
+}
+.bl{
+    font-weight: bold;
+}
+.fl{
+    float: left;
+}
+.cl{
+    clear: both;
+}
+.fr{
+    float: right;
+}
+.w100{
+    width: 100%;
+}
+.box-small{
+  width:80%;
+}
+#banner img{
+    width: 100%;
+}
+#steps-img{
+    width: 100%;
+}
+#info-content{
+    background: #fff;
+    padding: 15px 0px 0 0px;
+}
+#approved{
+    padding: 15px 20px;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff
+}
+#approved-content{
+    display: inline-block;
+    line-height: 18px;
+}
+#approved-content h1{
+    font-size: 13px;
+}
+#approved-content p{
+    font-size: 11px;
+    line-height: 16px;
+}
+#prod-info{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 40px 0 12px;
+}
+#prod-info h2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13.5px;
+    padding-left: 10px;
+}
+#prod-facts{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#order{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 102%;
+}
+#price-info{
+    font-size: 12px;
+    width: 59%;
+    position: relative;
+    top: 20px
+}
+#price-info div > div{
+    border-bottom: 1px solid #dddcdc;
+    padding: 10px 10px 10px 0;
+}
+#price-info > div p{
+    line-height: 22px;
+}
+#price-info div > div:first-child{
+    font-size: 14px;
+    position: relative;
+    left: 0px;
+    width: 100%;
+}
+#price-info div > div:first-child p{
+    position: relative;
+    left: 3px;
+}
+#price-info div > div:nth-child(2),
+#price-info div > div:last-child{
+    width: 100%;
+}
+#price-details > div > div p:last-child{
+    padding-right: 10px;
+}
+#price-details{
+    padding-bottom: 15px;
+    font-size: 11px !important;
+}
+#price-details .fl{
+    line-height: 16px;
+}
+#total p:last-child{
+    padding-right: 9px;
+}
+#total{
+    /*font-size: 12px;*/
+    position: relative;
+}
+#submission-info{
+    clear: both;
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+#delivery-info h1{
+    font-size: 14px;
+    padding: 10px 0 10px 20px;
+    font-weight: bold;
+    border-top: 1px solid #dddcdc;
+}
+#delivery-info{
+    font-size: 12px;
+    clear: both;
+    margin-bottom: -10px;
+}
+#delivery-info ul:first-child{
+    text-align: right;
+}
+#delivery-info ul{
+    float: left;
+    width: 45%;
+    line-height: 20px;
+    margin-right: 10px;
+    padding-top: 5px;
+    font-size: 11px;
+}
+#delivery-details{
+    margin-left: -60px;
+    padding-bottom: 40px;
+}
+#btm{
+    border-top: 1px solid #dddcdc;
+}
+#terms{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 75px 20px 25px 20px;
+    color: #a5a5a5;
+    text-align: justify;
+    clear: both;
+}
+img.imagebox {
+    width: 100px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.ib {
+    display: inline-block;
+    vertical-align: top;
+}
+.descriptioncontain {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+.bottleanddescription {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.cf-hidden { 
+    display: none; 
+} .cf-invisible { 
+    visibility: hidden; 
+}
+#billship>div{
+    float:left;
+    width:50%;
+}
+div#leftr{
+    border-bottom:1px solid #000;
+    font-size:12px;
+    overflow:hidden;
+    padding-bottom:10px;
+    width:100%;
+}
+
+@media screen and (max-width: 667px){
+    #wrapper{
+        zoom: 208%;
+    }
+}
+@media screen and (max-width: 640px){
+    #wrapper{
+        zoom: 187%;
+        -moz-transform: scale(1.999);
+        -moz-transform-origin: top center;
+    }
+}
+@media screen and (max-width: 568px){
+    #wrapper{
+        zoom: 177%;
+    }
+}
+@media screen and (max-width: 480px){
+    #wrapper{
+        zoom: 150%;
+    }
+}
+@media screen and (max-width: 414px){
+    #wrapper{
+        zoom: 129%;
+    }
+}
+@media screen and (max-width: 384px){
+    #wrapper{
+        zoom: 120%;
+    }
+}
+@media screen and (max-width: 375px){
+    #wrapper{
+        zoom: 116%;
+    }
+}
+@media screen and (max-width: 360px){
+    #wrapper{
+         zoom: 112.3%;
+        -moz-transform: scale(1.13) !important;
+        -moz-transform-origin: top top;
+    }
+}
+@media screen and (max-width: 320px){
+    #wrapper{
+        zoom: 0 !important;
+    }
+}

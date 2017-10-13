@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Landing Page */ 
+* { font-family: 'Open Sans', arial; }
+body { background: url(../images/default_bg.jpg) #ffffff top center no-repeat; }
+#wrapper { width: 1000px; margin: auto; position: relative; }
+#top { margin: auto; font-size: 14px; width: 460px; position: absolute; top: 39px; left: 170px; }
+.button { position: absolute; background: url(../images/button.png); width: 267px; height: 65px; cursor: pointer; }
+.button:hover { background: url(../images/button-hover.png); }
+.button.pos1 { top: 600px; left: 713px; }
+.button.pos2 { top: 1446px; left: 713px; }
+.button.pos3 { top: 2327px; left: 713px; }
+.button.pos4 { top: 4526px; left: 713px; }
+#form { position: absolute; left: 700px; top: 170px; width: 280px; font-size: 13px; }
+#form input[type='text'], #form input[type="tel"], #form input[type="email"] { padding: 4px; font-size: 13px; width: 180px; margin-left: 10px; border: 1px solid #ccc; }
+#form select { width: 188px; padding: 4px; border: 1px solid #cccccc; margin-left: 10px; }
+#form table td { padding: 5px 0; color: #666; white-space: nowrap; }
+#footer { width: 900px; margin: 20px auto; text-align: center; font-size: 12px; line-height: 18px; color: #999; padding-bottom: 20px; clear: both; }
+#footer a { color: #999; }
+footer { margin: 20px auto; text-align: center; font-size: 12px; line-height: 18px; color: #999; padding-bottom: 20px; clear: both; }
+footer a { color: #999; }
+footer ul { margin-bottom: 10px }
+footer li { display: inline-block; }
+footer .terms-links { margin-bottom: 10px }
+footer .copyright { text-transform: uppercase; }
+/* Billing Page */
+/*
+*/
+#error { border: 1px dotted red; color: red; padding: 5px; font-size: 12px; background-color: #fffaaf; }
+#billing #error { position: absolute; top: 240px; left: 630px; width: 338px; display: static; }
+#form.billing { position: absolute; top: 250px; left: 645px; width: 322px; padding: 0 10px 0 0; }
+#billing { width: 1000px; height: 887px; margin: auto; background: url(../images/billing.jpg) top center no-repeat; position: relative; text-align: center; }
+#billing .button { position: static; background: url(../images/billing-button.png); cursor: pointer; width: 322px; height: 70px; display: block;}
+#billing .button:hover { background: url(../images/billing-button-hover.png); }
+#billing .whatisthis a { font-size: 11px; color: #66cc33; margin-left: 8px; }
+#billing .whatisthis a:hover:before { content: ''; display: block; background: url(../images/cvv.png); width: 295px; height: 219px; position: absolute; top: 150px; left: -280px; }
+#billing .viewing { font-size: 16px; color: #666; position: absolute; top: 126px; left: 125px; width: 432px;}
+#billing .discount-applied { position: absolute; top: 183px; left: 29px; display: none; }
+#billing .choice { position: absolute; top: 185px; left: 30px; text-align: left; font-size: 14px; }
+#billing .choice p { margin-top: 15px; }
+#billing .choice .gray { color: #666; }
+#billing .product { position: absolute; top: 370px; left: 250px; text-align: left; font-size: 14px; color: #666; }
+#billing .product table { margin-top: 8px; }
+#billing .product tr { border-bottom: 1px solid #cccccc; }
+#billing .product tr.noborder { border: none; }
+#billing .product table td { padding: 5px 0; }
+#billing .protect-package { position: absolute; text-align: left; top: 540px; left: 202px; background: url(../images/billing-protect-package.jpg) no-repeat; padding: 3px 0 0 45px; font-size: 11px; color: #666; height: 32px; }
+#billing .protect-package a { color: #666; }
+#tooltip {font-size:14px;max-width:400px !important}
+#billing .terms { position: absolute; top: 725px; left: 24px; width: 550px; font-size: 12px; line-height: 18px; text-align: left; color: #999; padding-bottom: 50px; }
+#billing .terms a { color: #999; }
+#billing h1 { font-size: 18px; }
+.green { color: #66cc33; font-weight: bold; }
+.red { color: #ed145b; font-weight: bold; }
+#billing .address { display: none; }
+#billing .isyourbilling { margin: 0 0 25px; }
+#billing .secure { margin: 25px 0; font-size: 11px; }
+#billing .discount td { display: none; }
+#billing .discounted { display: none; }
+#billing.showAddress .full { display: static; }
+.age_confirm {text-align:left;font-size: 12px;margin: 5px 0 20px;}
+.age_confirm a {color:#666}
+.age_confirm input[type="checkbox"] {float:left}
+/* Show Address */
+#billing.showAddress { background: url(../images/billing-showAddress.jpg) top center no-repeat; height: 1167px; }
+//#billing.showAddress #form.billing { top: 300px; }
+#billing.showAddress #form table td { padding: 3px 0; }
+#billing.showAddress .address { display: block; }
+#billing.showAddress .discount td { display: none; }
+#billing.showAddress .discounted { display: none; }
+//#billing.showAddress .isyourbilling { margin: 12px; }
+#billing.showAddress .secure { margin: 15px 0; }
+/* Show Downsell Pricing */
+#billing.downsell { background: url(../images/billing-downsell-only.jpg) top center no-repeat; }
+#billing.showAddress.downsell { background: url(../images/billing-downsell.jpg) top center no-repeat; }
+#billing.downsell .discount td { display: table-cell; }
+#billing.downsell .discounted { display: block; }
+#billing.downsell .full { display: none; }
+#billing.downsell .protect-package { top: 590px; }
+#billing.downsell .product { top: 400px; }
+#billing.downsell .choice { top: 225px; }
+#billing.downsell .discount-applied { display: block; }
+#billing.downsell .terms { top: 775px; }
+/* Validation */
+input.invalid { border: 1px solid #ed145b !important; }
+input.valid { border: 1px solid #66cc33 !important; }
+select.invalid { border: 1px solid #ed145b !important; }
+select.valid { border: 1px solid #66cc33 !important; }
+/* Upsell */
+#upsell { position: relative; width: 900px; top: 180px; left: 0px; text-align: center; margin: auto; }
+#upsell .text { margin: auto; width: 654px; }
+#upsell .upsell-button { background: url(../images/upsell-button.png); cursor: pointer; width: 340px; height: 74px; margin: 20px auto 0 auto; display:block; }
+#upsell .upsell-button:hover { background: (url../images/upsell-button-hover.png); }
+
+#upsell .upsell-button.complete { background: url(../images/upsell-button-complete.png); cursor: pointer; width: 340px; height: 74px; margin: 20px auto; display:block; }
+#upsell .upsell-button.complete:hover { background: url(../images/upsell-button-complete-hover.png); }
+#upsell .age_confirm {text-align:center}
+
+#upsell .decline { margin-top: 10px; font-size: 12px; }
+#upsell .decline a { color: #666; }
+#upsell .terms { margin: 180px auto 0; color: #000; font-size: 16px; text-align: center; padding-bottom: 30px; }
+#upsell .terms a { color: #000; }
+#upsell p { margin: 5px 0 20px 0; }
+#upsell .coupon img { margin-top: 30px; }
+#upsell .secure { margin: 10px 0; font-size: 11px; }
+/* Confirmation */
+#confirmation { position: relative; width: 860px; top: 200px; left: 0px; margin: auto; }
+#confirmation .separator { border-top: 1px solid #cccccc; height: 1px; margin: 20px 0; }
+#confirmation .terms { margin: 60px auto 0; color: #999; font-size: 12px; text-align: center; padding-bottom: 30px; }
+#confirmation .terms a { color: #999; }

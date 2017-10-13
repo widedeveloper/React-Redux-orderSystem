@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Mobile Landing Page */
+body { background-color: #dadee1; }
+* { font-family: 'Open Sans', arial; }
+#wrapper { width: 640px; margin: auto; position: relative; }
+.button-area { width: 100%; background-color: #000000; padding: 20px 0; position: fixed; bottom: 0; max-width: 640px; }/* edit*/
+.button { width: 100%; }
+.button a { margin: 0 auto; background: url(../images/button.png) 50% 50% no-repeat; width: 100%; max-width: 542px; height: 132px; cursor: pointer; display: block; background-size: contain; border: none; }
+.button a:active:hover { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/button-hover.png) 50% 50% no-repeat; }
+#footer { /*width: 600px;*/ margin: auto; text-align: center; font-size: 16px; line-height: 22px; color: #000; padding: 20px 20px 50px 20px; clear: both; background-color: white; }
+#footer a { color: #000; }
+footer ul { margin-bottom: 10px }
+footer li { display: inline-block; }
+footer .terms-links { margin-bottom: 10px }
+/* Mobile Billing Page */
+#error { width: 520px; margin: auto; border: 1px dotted red; color: red; padding: 15px; font-size: 14px; background-color: #fffaaf; font-weight: bold; margin-top: 20px; text-align: center; line-height: 18px; display: static; }
+#billing { width: 640px; margin: auto; position: relative; font-size: 20px; line-height: 34px; color: #666; background-color: white; }
+#billing .header { background-color: #eeeeee; padding: 20px 0; border-top: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; text-align: center; font-weight: bold; }
+#billing .header.red { background-color: red; color: white; border: none; }
+#billing .text { background-color: white; padding: 10px 46px 35px; }
+#billing .text.upsell { padding: 20px 46px 15px; }
+#billing .text.upsell p { text-align:center; font-size:16px; line-height:22px; margin-top:-10px; color:#999; }
+#billing .text.confirmation { padding: 20px 46px 15px; font-size: 20px; color: black; }
+#billing .text.confirmation .separator { border-top: 1px solid #d6d6d6; margin: 20px 0; }
+#billing .text.confirmation .spacer { margin: 15px 0; }
+#billing .text.confirmation table tr td { padding: 0; }
+#billing .text h1 { font-size: 22px; line-height: 38px; text-align: center; color: black; }
+#billing .text h3 { font-size: 20px; text-align: center; color: black; }
+#billing .text p, #billing .product p { font-size: 20px; line-height: 34px; color: #666; padding-top: 20px; }
+#billing .forms { background-color: white; padding: 30px 0; }
+#billing .forms.address { border-top: 1px solid #e0e0e0; }
+#billing table { margin: auto; }
+#billing table tr td { text-align: left; padding-bottom: 20px; font-size: 18px; white-space: nowrap; }
+#billing input[type='text'], #billing input[type="tel"], #billing input[type="email"] { width: 520px; padding: 10px; margin-top: 5px; border: 1px solid #d9d9d9; font-size: 22px; }
+#billing input.narrow { width: 235px; }
+#billing input.narrow-right { width: 245px; }
+#billing select { width: 545px; font-size: 22px; }
+#billing select.narrow { width: 260px; }
+#billing select.narrow-right { width: 270px; }
+#billing .secure { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/billing-secure.jpg); width: 640px; height: 73px; }
+#billing .button { margin: 0 auto; background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/billing-button.png) 50% 50% no-repeat; width: 100%; max-width: 542px; height: 132px; cursor: pointer; display: block; background-size: contain; border: none; }
+#billing .button:hover { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/billing-button-hover.png) 50% 50% no-repeat; }
+#billing .button.upsell { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/upsell-button.png) 50% 50% no-repeat; }
+#billing .button.upsell:hover { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/upsell-button-hover.png) 50% 50% no-repeat; }
+#billing .mcafee { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/mcafee-norton.png); width: 265px; height: 65px; margin: 20px auto; }
+#billing .green { color: #66cc33; font-weight: bold; }
+#billing .red { color: #ed145b; font-weight: bold; }
+#billing .product { background: url(https://d3oimv5qppjae2.cloudfront.net/garcinialeanxtreme.com/glx11cbm/product-glx.jpg) 10px 20px white no-repeat; text-align: left; color: #666; padding: 15px 0 40px 250px; font-size: 18px; border-bottom: 1px solid #d7d7d7; }
+#billing .product table { margin-top: 8px; width: 100%; }
+#billing .product h1 { font-size: 22px; line-height: 38px; color: black; }
+#billing .product tr { border-bottom: 1px solid #cccccc; }
+#billing .product tr.noborder { border: none; }
+#billing .product table td { padding: 5px 0; }
+#billing .bottom { background-color: black; padding-bottom: 20px; }
+/* Protect Package */
+#billing .protect-package { margin: 20px auto 0; padding-bottom: 20px; font-size: 16px; line-height: 18px; color: #666; text-align: center; }
+#billing .protect-package img { padding-right: 10px; }
+#billing .protect-package a { color: #666; }
+#billing .protect-package label { display: block; }
+/* Upsell */
+#billing .upsell img { padding-bottom: 20px; background-color: white; }
+#billing .decline { color: white; font-size: 14px; text-align: center; }
+#billing .decline a { color: white; }
+/* Validation */
+input.invalid { border: 1px solid #ed145b !important; }
+input.valid { border: 1px solid #66cc33 !important; }
+select.invalid { border: 1px solid #ed145b !important; }
+select.valid { border: 1px solid #66cc33 !important; }
+
+@media (max-width: 640px) {
+.button a { width: 90%; }
+}
+
+#first_block, #second_block, #third_block{
+    position: relative;
+}
+
+#first_block > img.bottle{
+    position: absolute;
+    bottom: 170px;
+    left: 0;
+    max-width: 260px;
+}
+
+#second_block > img.bottle{
+    position: absolute;
+    bottom: 10px;
+    right: 55px;
+    max-width: 260px;
+}
+
+#third_block > img.bottle{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    max-width: 260px;
+}

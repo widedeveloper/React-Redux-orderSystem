@@ -1,0 +1,207 @@
+body{
+    background: #fff;
+}
+#wrapper{
+    width: 320px;
+    margin: 0 auto;
+    font-family: 'Open Sans', helvetica;
+    position: relative;
+    overflow-x: hidden;
+}
+.after:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#hidden-banner{
+    padding: 20px 0px 20px 20px;
+    border-bottom: 2px solid #ffcb00;
+    border-top: 2px solid #ffcb00;
+    background: #e9e7e4;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+#hidden-banner p{
+    position: relative;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: 16px;
+    display: inline-block;
+}
+#steps-2{
+    width: 100%;
+}
+#approved{
+    padding: 10px 20px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #000000;
+    background-color: #eeeeee;
+}
+#approved-content{
+    /*display: inline-block;*/
+    font-size: 11px;
+    line-height: 18px;
+    /*margin-left: 10px;*/
+}
+#approved-content h1{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+#eye{
+    width: 7%;
+    position: relative;
+    margin-right: 2px;
+    top: 0px;
+}
+#banner img{
+    width: 100%;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#form{
+    padding: 20px 20px 10px 20px;
+}
+#form  div{
+    margin-bottom: 10px;
+}
+form label{
+    font-size: 11.5px;
+    color: #5a5a5a;
+    display: block;
+}
+form select{
+    width: 100%;
+    height: 28px;
+    margin-top: 7px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding-left: 7px;
+}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"]{
+    height: 30px;
+    padding: 3px 0 3px 7px;
+    border: 1px solid #929292;
+    margin-top: 7px;
+    font-style: normal;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.w50{
+    width: 49%;
+}
+
+.w100{
+    width: 100%;
+    padding-left: 7px;
+}
+.n-input{
+    width: 96%;
+}
+.s-input{
+    width: 91%;
+}
+
+input[type="text"]::-webkit-input-placeholder,input[type="tel"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder {
+    font-style: normal;
+}
+input[type="text"]:-moz-placeholder,input[type="tel"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder{
+    font-style: normal;
+}
+input[type="text"]::-moz-placeholder,input[type="tel"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder{
+    font-style: normal;
+}
+input[type="text"]:-ms-input-placeholder ,input[type="tel"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder{
+    font-style: normal;
+}
+input[type="submit"]{
+  border:1px solid #ff0000;
+  background: #fb0000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fb0000, #b00000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fb0000, #b00000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fb0000, #b00000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fb0000, #b00000); /* Standard syntax */
+    width: 87%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: "Open Sans" , arial;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    /*font-weight: bold;*/
+    border-radius: 3px;
+    padding: 15px 60px 15px 35px;
+    cursor: pointer;
+
+}
+/*input[type="submit"]:active{*/
+    /*border:1px solid #fb9f00;*/
+  /*background: #fb9f00; *//* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(#fb9f00, #e05e01); *//* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#fb9f00, #e05e01); *//* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#fb9f00, #e05e01); *//* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#fb9f00, #e05e01); *//* Standard syntax */
+/*}*/
+.arrow {
+    position: absolute;
+    right: 40px;
+    bottom: 94px;
+}
+#cp-btn-holder {
+    position: relative;
+}
+#btm{
+    margin-top: 20px;
+}
+#terms{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 25px 20px 25px 20px;
+    color: #000;
+    text-align: justify;
+}
+
+
+.main_cont{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding-top:20px;
+}
+
+form select{ width: 100%; }
+
+#crm-response-container{
+    color: red;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid red;
+    margin-top: 8px;
+}
+
+body{
+    font-family:"Helvetica","Arial",san-serif;
+}
+form label{
+    width:97%;
+}
+center{
+    margin-bottom:30px;
+}
+.cf-hidden { 
+    display: none; 
+} 
+.cf-invisible { 
+    visibility: hidden; 
+}

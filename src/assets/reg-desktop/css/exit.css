@@ -1,0 +1,102 @@
+#discountholder {
+    display: none;
+}
+.discountsection {
+    z-index: 9999;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+    border-bottom: white dashed 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.discountoffset {
+    position: relative;
+    width: 100%;
+    height: 22px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#exit_pop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 9999;
+    clear: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.exit_pop_content {
+    cursor: pointer;
+    background: url(../images/exit.jpg) center top no-repeat;
+    width: 688px;
+    height: 408px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -204px 0 0 -344px;
+}
+.bottle_exit_1 {
+    position: absolute;
+    top: 47px;
+    left: 512px;
+    width: 191px;
+}
+.shipping_overlay_block {
+    position: absolute;
+    top: 149px;
+    left: 4px;
+    width: 680px;
+    height: 134px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.shipping_perc_off {
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 36px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    width: 310px;
+}
+.shipping_sh {
+    color: red;
+    position: absolute;
+    top: 48px;
+    left: 347px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 302px;
+}
+.shipping_lo {
+    color: white;
+    position: absolute;
+    top: 24px;
+    left: 347px;
+    font-size: 22px;
+    width: 302px;
+}
+.shipping_pay_only {
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 37px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 614px;
+}

@@ -2,13 +2,13 @@
     "data_eg_php_s1": {
         "meta_description": "Garcinia Cambogia 30 day supply with a 14 day trial.",
         "public": {
-            "companyAddress": "",
-            "companyCustomerServiceEmail": "",
-            "companyCustomerServicePhone": "",
-            "companyHours": "",
-            "companyName": "",
-            "companyReturnAddress": "",
-            "productName": "",
+            "companyAddress": "2611 S harbor Blvd Santa Ana, CA 92704",
+            "companyCustomerServiceEmail": "support@premierdietsupport.com",
+            "companyCustomerServicePhone": "1-866-636-7005",
+            "companyHours": "Monday thru Friday - 9 AM to 5 PM EST",
+            "companyName": "Pure Garcinia Cambogia",
+            "companyReturnAddress": "P.O. Box 25380 Santa Ana, CA 92799",
+            "productName": "Pure Garcinia Cambogia",
             "productRebillPrice": "89.27",
             "productRebillDays": "14",
             "shippingPrice": "4.95",
@@ -28,7 +28,9 @@
             "e7": "260",
             "o8": "716",
             "e8": "64",
-            "cu": ""
+            "o9": "812",
+            "e9": "64",
+            "cu": "https://egtrk.com/p.ashx"
         },
         "campaignId": "24",
         "campaignIds": ["24", "26"],
@@ -40,22 +42,22 @@
         "CCsAccepted": ["visa","master","discover"],
         "crm": {
             "crm": "LL",
-            "password": "",
-            "site": "",
-            "username": ""
+            "password": "GqTDRAQrgCQFk",
+            "site": "https://empireoffers.limelightcrm.com/admin",
+            "username": "www.empireoffers.com"
         },
         "upsell": "eg_php_s2"
     },
     "data_eg_php_s2": {
-        "meta_description": "",
+        "meta_description": "Balance your Amazing Garcinia with specially formulated Natural Mango Cleanse.",
         "public": {
-            "companyName": "",
-            "productName": "",
-            "companyAddress": "",
-            "companyCustomerServiceEmail": "",
-            "companyCustomerServicePhone": "",
-            "companyHours": "",
-            "companyReturnAddress": "",
+            "companyName": "Pure Garcinia Cambogia",
+            "productName": "Natural Mango Cleanse",
+            "companyAddress": "2611 S harbor Blvd Santa Ana, CA 92704",
+            "companyCustomerServiceEmail": "support@premierdietsupport.com",
+            "companyCustomerServicePhone": "1-877-639-7111",
+            "companyHours": "Monday thru Friday - 9 AM to 5 PM EST",
+            "companyReturnAddress": "P.O. Box 25380 Santa Ana, CA 92799",
             "productRebillPrice": "88.63",
             "productRebillDays": "14",
             "shippingPrice": "4.94",
@@ -71,13 +73,13 @@
             "e5": "21",
             "o6": "677",
             "e6": "21",
-            "o6": "685",
-            "e6": "261",
             "o7": "",
             "e7": "",
             "o8": "716",
             "e8": "21",
-            "cu": ""
+            "o9": "812",
+            "e9": "21",
+            "cu": "https://egtrk.com/p.ashx"
         },
         "campaignId": "25",
         "campaignIds": ["25", "28"],
@@ -89,9 +91,9 @@
         "CCsAccepted": ["visa","master","discover"],
         "crm": {
             "crm": "LL",
-            "password": "",
-            "site": "",
-            "username": ""
+            "password": "GqTDRAQrgCQFk",
+            "site": "https://empireoffers.limelightcrm.com/admin",
+            "username": "www.empireoffers.com"
         }
     }
 }

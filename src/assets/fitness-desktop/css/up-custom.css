@@ -1,0 +1,414 @@
+.after:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.b-r3{
+    border-radius: 0px 3px 3px 0px;
+}
+.b-l3{
+    border-radius: 3px 0px 0px 3px;
+}
+.bb{
+    border-bottom: 1px solid #dbdada;
+}
+.br{
+    border-right: 1px solid #acacac;
+}
+.black{
+    color:black;
+}
+.blue{
+    color: #00edff;
+}
+.warning{
+    background-color:#ff0000;
+    color:white;
+    padding:10px 0 10px 0 ;
+}
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c4755+0,000000+100 */
+    background: #0c4755; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0c4755 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #0c4755 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #0c4755 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4755', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background-attachment: fixed;
+}
+#wrapper{
+    width: 698px;
+    margin: 0px auto;
+    position: relative;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: #000000 0px -62px 41px -8px;
+    -webkit-box-shadow: #000000 0px -62px 41px -8px;
+    -moz-box-shadow: #000000 0px -62px 41px -8px;
+    -ms-box-shadow: #000000 0px -62px 41px -8px;
+}
+#wrapper #banner{
+    border-bottom: 1px solid #b2b2b2;
+    height: 94px;
+    background: #000;
+}
+#wrapper #banner #steps{
+    width: 295px; height: 5px;
+    top: 40px;
+    left: 315px;
+    background: #3c3c3c;
+    position: absolute;
+    text-align: center;
+}
+#wrapper #banner #steps #ty-slider{
+    height: 3px;
+    width: 143px;
+    background: #00b2c0;
+    position: relative;
+    top: 1px;
+}
+#wrapper #banner #steps ul{
+    position: relative;
+}
+#wrapper #banner #steps .step{
+    width: 20px; height: 20px;
+    background: #3c3c3c;
+    box-shadow: 0 0 0px 3px #3c3c3c;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+#wrapper #banner #steps ul li .step-name{
+    position: relative;
+    left: -25px;
+    padding-top: 8px;
+    font-weight: 600;
+}
+#wrapper #banner #steps .step-1 .step-name,
+#wrapper #banner #steps .step-2 .step-name{
+    color: #5a5a5a;
+    left: -43px;
+}
+#wrapper #banner #steps .step-3 .step-name{
+    color: #5a5a5a;
+}
+#wrapper #banner #steps .step-1,
+#wrapper #banner #steps .step-2,
+#wrapper #banner #steps .step-3{
+    top: -8px;
+    position: absolute;
+    z-index:
+}
+#wrapper #banner #steps .step-1{
+    left: -20px;
+}
+#wrapper #banner #steps .step-2{
+    left: 142px;
+}
+#wrapper #banner #steps .step-3{
+    right: -82px;
+}
+
+#wrapper #banner #steps .step-1 div,
+#wrapper #banner #steps .step-2 div{
+    background: #00b2c0;
+    transition: background 3s;
+    -webkit-transition: background 3s;
+    -ms-transition: background 3s;
+}
+#wrapper #banner #steps .thank-you div{
+    transition: background 2s;
+    -webkit-transition: background 2s;
+    -ms-transition: background 2s;
+}
+#wrapper #banner #steps .step p{
+    position: relative;
+    z-index: 10;
+    top: 3px;
+}
+
+#steps{
+    margin-bottom: 20px;
+}
+#thank-you{
+    width: 100%;
+    float: right;
+}
+#ty-msg{
+    padding: 40px 0 25px 0;
+    border-bottom: 1px solid #b2b2b2;
+}
+#ty-msg p{
+    margin-bottom: 5px;
+}
+#upsell a{
+    text-decoration: none;
+}
+#upsell-btn{
+    background: url(../images/upsell.jpg) no-repeat center top;
+    height: 242px;
+    width: 509px;
+    /*margin: 0 auto;*/
+    display: block;
+    /*background-position: 0 0;*/
+    color: #043c8f;
+    position: relative;
+    left:94px;
+
+}
+#upsell-btn .prod{
+    position: absolute;
+    left: 21px;
+    top: 15px;
+}
+#upsell-btn p{
+    margin-bottom: 23px;
+    color: white;
+    position: absolute;
+}
+#upsell-btn .up-content p:first-child{
+    top: 75px;
+    right: 18px;
+    font-size: 24px;
+    line-height: 24px;
+}
+#upsell-btn .up-content p:last-child{
+    right: 35px;
+    bottom: 30px;
+    font-size: 20px;
+    line-height: 23px;
+}
+#upsell-btn .up-prod{
+    position: absolute;
+    left: 25px;
+    top: 31px;
+}
+#upsell-btn-content{
+    position: absolute;
+    right: 30px;
+    top: 67px;
+}
+#upsell-btn-content span.f22{
+    line-height: 28px;
+}
+#upsell-btn-content span.f20{
+    line-height: 25px;
+}
+#wait{
+    background: #ff0000;
+    color: #fff;
+    padding: 15px 0;
+    margin: 20px 0 15px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial;
+}
+.customers{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial;
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+.form-button{
+    position: relative;
+    top: 37px;
+    left: 20px;
+}
+.cta a,
+#down-btn{
+    position: absolute;
+    right: 25px;
+    top: 16px;
+    background: #00efc5;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 20px 25px 20px 35px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 0 #7b7b7b;
+    display: block;
+    text-decoration: none;
+}
+.cta a .arrow{
+    position: relative;
+    left: -10px;
+    bottom: 2px;
+}
+.cta a:active{
+    margin-top: 4px;
+    box-shadow: 0 0 0 0  #ff8400;
+}
+.up-btn{
+    background: url(../images/up-btn.png) top center no-repeat;
+    width: 365px;
+    height: 85px;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.up-btn #lock{
+    background: url(../images/locked.png) no-repeat;
+    width: 18px; height: 23px;
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    z-index:5;
+}
+/*#upsell:active #up-btn{*/
+    /*background: url(../images/up-btn-on.png) top center no-repeat;*/
+/*}*/
+#lock, #cards{
+    margin: 10px auto;
+    display: block
+}
+#decline{
+    font-size: 12px;
+    margin: 35px auto;
+    width: 235px;
+    text-decoration: underline;
+}
+#decline img{
+    vertical-align: -14%;
+}
+#totals{
+    width: 100%;
+    float: right;
+}
+#total{
+    margin-top: 10px
+}
+#terms{
+    font-size: 10.5px;
+    line-height: 16px;
+    color: #aaaaaa;
+    width: 658px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+
+}
+#dedicated{
+    padding-top: 40px;
+    width: 658px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: 'Open Sans', Arial;
+}
+#dedicated p{
+    width: 85%;
+    display: inline-block;
+    padding-left: 10px;
+}
+#dedicated img{
+    display: inline-block;
+    vertical-align: -110%;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    width: 275px;
+    margin: 0px auto;
+    position: relative;
+    color: #8a8a8a;
+    padding-top: 60px;
+    /*text-transform: uppercase;*/
+}
+footer p a{
+    color: #8a8a8a;
+}
+footer p{
+    text-align: center;
+    clear: both;
+}
+#preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+#preloader .overlay{
+    background: #000;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#spinner-content{
+    width: 200px;
+    margin: 20% auto;
+    position: relative;
+    z-index: 3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background: white;
+    padding: 15px 25px 35px 25px;
+    /*box-shadow: 0px 0px 20px 0px #000;*/
+    border: 1px solid #ccc;
+    line-height: 19px;
+}
+#spinner{
+    height: 50px;
+    width: 50px;
+    border-width: 5px;
+    background: url(../images/pre-spinner.png);
+    margin: 55px auto;
+    -webkit-animation: clockwise 0.75s linear infinite;
+    -moz-animation: clockwise 0.75s linear infinite;
+    -ms-animation: clockwise 0.75s linear infinite;
+    animation: clockwise 0.75s linear infinite;
+}
+@-webkit-keyframes clockwise {
+    to {
+        -webkit-transform: rotate(360deg) translatez(0);
+        transform: rotate(360deg) translatez(0);
+    }
+}
+@-moz-keyframes clockwise {
+    to {
+        -moz-transform: rotate(360deg) translatez(0);
+        transform: rotate(360deg) translatez(0);
+    }
+}
+@-ms-keyframes clockwise {
+    to {
+        -ms-transform: rotate(360deg) translatez(0);
+        transform: rotate(360deg) translatez(0);
+    }
+}
+@keyframes clockwise {
+    to {
+        transform: rotate(360deg) translatez(0);
+    }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    #outer-wrapper{
+        background-size: 135%;
+        margin:0 auto;
+        width: 100%;
+        min-width: 1300px;
+        overflow: hidden;
+    }
+}
